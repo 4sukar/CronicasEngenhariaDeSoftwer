@@ -1,4 +1,3 @@
-/* Interface: fluxo principal "registrar uma sessão" em 4 etapas. */
 function newSess(){w={s:1,data:new Date().toISOString().slice(0,10),nivel:1,resumo:'',npcs:[],locais:[],mis:{}};view='sessao';draw()}
 function wiz(){
 const s=w.s,bar=`<div class="steps">${[1,2,3,4].map(i=>`<span class="${i<=s?'on':''}"></span>`).join('')}</div>`;
