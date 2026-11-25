@@ -1,4 +1,3 @@
-/* Interface: núcleo. Estado da tela, navegação, painel da campanha e dados de exemplo. */
 const RACAS=['Anão','Elfo','Halfling','Humano','Draconato','Gnomo','Meio-elfo','Meio-orc','Tiefling'];
 const ST=['Disponível','Em andamento','Concluída','Falhou'];
 const ENT={
