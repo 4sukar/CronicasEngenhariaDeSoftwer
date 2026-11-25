@@ -1,4 +1,3 @@
-/* Camada de persistência: lê e grava o banco da campanha no navegador. */
 const Armazenamento = (() => {
   const CHAVE = 'cronica';
   const vazio = () => ({ campanha: { nome: '', desc: '', inicio: '' }, npcs: [], locais: [], missoes: [], sessoes: [], seq: 1 });
