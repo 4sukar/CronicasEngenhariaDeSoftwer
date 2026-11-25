@@ -1,0 +1,1 @@
+{ "name": "cronica", "version": "1.0.0", "description": "Crônica - Gerenciador de Campanhas de D&D", "scripts": { "test": "node --test tests/regras.test.js tests/ui.test.js" } }
