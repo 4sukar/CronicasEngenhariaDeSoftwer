@@ -1,4 +1,3 @@
-/* Interface: cadastros de NPCs, locais e missões (CRUD, busca e filtros). */
 function opts(f,v){
 if(f.ref)return (f.nb?'':'<option value="">—</option>')+db[f.ref].map(o=>`<option value="${o.id}" ${o.id==v?'selected':''}>${esc(o.nome||o.titulo)}</option>`).join('');
 return (f.nb?'':'<option value="">—</option>')+f.sel.map(o=>`<option ${o==v?'selected':''}>${o}</option>`).join('')}
