@@ -1,4 +1,3 @@
-/* Interface: diário da campanha e exclusão de sessões. */
 function delSess(id){db.sessoes=db.sessoes.filter(s=>s.id!=id);save();say('Sessão excluída.');draw()}
 function diario(){
 const r=Regras.ordenarDiario(db.sessoes);
